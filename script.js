@@ -31,7 +31,7 @@ stopButton.addEventListener('click', () => {
             .catch(error => {
 
             })
-    } else{
+    } else {
 
     }
 });

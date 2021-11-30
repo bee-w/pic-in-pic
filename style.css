@@ -14,10 +14,11 @@ body {
 }
 
 h1 {
+    font-size: 4.5rem;
     color:rgb(250, 243, 243);
     font-family: 'Permanent Marker', cursive;
     text-align: left;
-    padding: 0 0 0 20%;
+    padding: 5% 0 0 20%;
     margin: 0;
     text-shadow: 0 2px 5px rgb(107, 95, 95);
 }
@@ -33,6 +34,10 @@ h1 {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+video{
+    width: 90%;
 }
 
 
@@ -54,7 +59,7 @@ h1 {
 button {
     cursor: pointer;
     outline: none;
-    width: 120px;
+    width: 90%;
     height: 75px;
     font-family: 'Barlow', sans-serif;
     font-size: 25px;
@@ -74,3 +79,45 @@ button:active {
     transform: translateY(3px);
     box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.3);
 }
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 80%;
+        color:rgb(250, 243, 243);
+        font-family: 'Permanent Marker', cursive;
+        text-align: left;
+        padding: 5% 0 0 20%;
+        margin: 0;
+        text-shadow: 0 2px 5px rgb(107, 95, 95);
+    }
+
+    .video-container {
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    video {
+        width: 90%;
+    }
+
+    .button-container {
+        padding: 2%;
+        border-radius: 7%;
+        width: 25%;
+        height: auto;
+        text-align: center;
+    }
+    
+    button {
+        width: 100%;
+        height: auto;
+    }
+
+    .buttons {
+        padding-bottom: 5%;
+    }
+  }
